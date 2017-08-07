@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="FCL Category">d44e4fb66f100300990c52b10b3ee4b2</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="color: #808080; font-family: arial, helvetica, sans-serif; font-size: medium;">Request a new Needit record to be created. An needit record will be created and managed through to successful resolution. You will also be notified of progress.</span></p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Create NeedIt Record</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=085520436fd00300990c52b10b3ee475&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>c75b43766f100300990c52b10b3ee495</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[var info = "This Needit record was opened on your behalf. The IT department will contact you if they need any further information{0}You can track status from this.";
+
+gs.addInfoMessage(gs.getMessage(info));
+
+current.contact_type = 'self-service';
+current.u_requested_for = gs.getUserID();
+if (producer.comments.length > 80)
+	current.short_description = producer.comments.substring(0, 79);
+else
+	current.short_description = producer.comments;]]></script>
+        <short_description>Create an Needit record short description.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>085520436fd00300990c52b10b3ee475</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create NeedIt Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_producer_085520436fd00300990c52b10b3ee475</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-04 23:37:26</sys_updated_on>
+        <table_name>x_58872_needit_needit</table_name>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=085520436fd00300990c52b10b3ee475"/>
+    <fx_price action="delete_multiple" query="id=085520436fd00300990c52b10b3ee475"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>085520436fd00300990c52b10b3ee475</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:42</sys_created_on>
+        <sys_id>5d16a0436fd00300990c52b10b3ee48b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-04 22:57:42</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>085520436fd00300990c52b10b3ee475</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:42</sys_created_on>
+        <sys_id>1d16a0436fd00300990c52b10b3ee48c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-04 22:57:42</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#3411</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height>100</image_height>
+        <image_width>100</image_width>
+        <size_bytes>1546</size_bytes>
+        <size_compressed>1530</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:49</sys_created_on>
+        <sys_id>871624436fd00300990c52b10b3ee498</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-04 22:57:50</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>085520436fd00300990c52b10b3ee475</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="871624436fd00300990c52b10b3ee498">871624436fd00300990c52b10b3ee498</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:49</sys_created_on>
+        <sys_id>8f1624436fd00300990c52b10b3ee498</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>jVRrOBMKGB4SZrMydzkdlJJhXdxKOTK3MXNnRE2uc1wilyhj1JJObqHMteaw5c5BLjEbuVur5TK55JyaOkvJaIizfnSep+f8OT/e73ve73m+P9/3vm+6o4M1GKgCBAAAYFsbhLOw+3+DpKiw7iSLigmbSLSz9VlA7di+JSHZFWSOMgcAGjKlt7DiQi4VaYOJBgBk6N8g8jSiSrguXmqLMHeN9+WRaKEcGzniHxmh9mrtB+w8i7IqymFfIHDpCqYFV91x2nfNmXkJOmlRtofr9sWrhZnjnfsQq9/VrD5v8ancEWi3DTiPzIf9pp2SBr60J1xmM3B2IId3HxGhYYn8egYRmnk3ePU56f6fTSuvXs4W0RmLiXwzqJhMBoBomUzX6MHuna+XjPTcZQwT3aeQYpoWs/FmoXs96EnnVMrE9jSo88xk/2kTzSTPeNtnOrT8VT0Ybxnd/6CxHV9TSi0YdPGaInGmSVRKq4Cg5F7jGVPUEkfu4HxlpYKfyvkFR6hV9ROtO6hSXA9oJ7dTtnIp4fW9RZkP43K4gLz9Exntr3tDdSYsfUbYr2YfnTK+as/bLuTE4HJVmduMEFyjvmmCN0ZBXKt7jYcQJx2/bgoKKkjy3Kdbq7ZzujOubvEjRTdfnZmpG534nrxkzJY4uJfWC1Yeku/xGztSc4JhAJGbcKgD7xiusQcIVHMQrxh9/lMfu1cD5iYdtuyvqFUvyU4Q7/fCe2PgLR7hPi6btXLuWFraSlTju8skMH8W01arTEqmXPPVkyM9udfibR2lsb8CrhPePzG+4JV9NBZLYzuYxrLtpGCC5xltURTwoSiLzS1GtNIwh9htMZzh5wNTUcHhe3RTDNT1H6mfihdtyTPI/35ske8/yPpcz5xEXIekp3WFbtV/ZCy0vHQ+1S/hF1CeMg39nbLkNffRThO7jDMCffKYma0FSktIh2fvirvjQRyGe5XQslfq2fzFyAHuQRwgiVP55OpxuENr6eu4n6ZVuVaXFLrn2JH+q2giSbDu2FG/ldlrdDdCWupibHmcDIcqW1msyBTjfkiCjlZWoYyP2bfw1E6CqwnRB6kpL1MmHE8GLxZAw9itXV9fHXpgliFzGzSFvjnLG6oDMqqnhmTpZ9GACZieVX7cPkUgXSQhWZevujLQWwe55UhanhPf3WAoUN2oy7B1fXEmr4Ji/ZkaAIjJZ4WV25O39iY0xq/7qnNZmMkRjCpfg7x2qJB13Ic76s2U6stSU1vDs0Vn0Ynp7XA3ouQL3u0uUWDTjfW/V5dHS1x0xqhqKr/ewP7la+IaJ5ur+fWtS1UJkaWMgj6+iag5DQ1SXM/5csWH836mNGWQ3La1Uo22qn4DO4HnEOuwbcrnuBfKtlVGCuPJuOxWp9GE1CIdp7fSRgtz/emTUJOypu0At92IWx2fa6XpkQKx2Telq6lGPeGEp48HQwyxz452MCG5bgaHtzcxMw0s5CQhlBDuZHb+ARVtz1DWlHDNT+rskBLXqBSN2xCwIkdxlJuQR+Tb8l3AkxEXZlDaW80LBmWN/ijakKRO26kufjU5FuKHwcwBK0v7Vi6HKVjv13MPnKQtovEibxpFhUK5eAYU8q8/i4gx5i6F8E90PxdkTbVOIBLaH64UiEM20fWqzxWyVtVv5CW6FB4xjHZ3QIVsTILoM4Ws5obCpkaDiimsES0oFHk8VR4sMjykgv5Rg8IcGDhQfVUw/oUByUBpP27cMBwKab9YUPAK7goZlKLA35lI4ODHXjZvQ8OoH0ScioPZ2hiUBEvjvkloT/S7mMNs/J1b7rk58oiTWRqxWEFdV8nDn/rugq6MOakh+aUPH7DJ/tlJEqw0FQWqUlXx/H0txrzJplbmOzMDHLPMX95cwrkvnEBE7SDKbYnTgvGqYEt75FqUTeAY8OiSY+7OCdOfcXI1D/EDZiA9fcrIqi0xgFVutUPB/+Kq78XHz+Ov1GsfzIoPuDb8H3v9GHH/a+y3aLwjNpLYAO3kg+8I8xtga+mAqD17gfAPWlCTzgoGAAA=</data>
+        <length>2028</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="871624436fd00300990c52b10b3ee498">871624436fd00300990c52b10b3ee498</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-04 22:57:49</sys_created_on>
+        <sys_id>031624436fd00300990c52b10b3ee499</sys_id>
+    </sys_attachment_doc>
+</record_update>

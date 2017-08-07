@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_dt_approval">
+    <sc_cat_item_dt_approval action="INSERT_OR_UPDATE">
+        <approval_script><![CDATA[(function approver_is_manager(){
+var request = current.request_item.request;
+ var rc = request.request_for.manager;
+	return rc;
+}
+ )();]]></approval_script>
+        <assigned_to/>
+        <condition/>
+        <condition_script/>
+        <delivery_plan display_value="Needit Execution Plan">dd1501db6f980300990c52b10b3ee4f1</delivery_plan>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <generation_script/>
+        <group/>
+        <instructions>Check that user has requested the item quantity less than 4. This task will go automatically to the manager of submitter using below script.</instructions>
+        <name>Needit approval Plan Approval Task 1</name>
+        <order>100</order>
+        <rejection_goto/>
+        <short_description>Needit approval Plan Approval Task 1 Short description - this is the first approval task in the approval plan</short_description>
+        <sla/>
+        <sys_class_name>sc_cat_item_dt_approval</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-05 19:56:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1a509db6f980300990c52b10b3ee4f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Needit approval Plan Approval Task 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_dt_approval_d1a509db6f980300990c52b10b3ee4f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-05 20:01:54</sys_updated_on>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <work_notes/>
+    </sc_cat_item_dt_approval>
+</record_update>

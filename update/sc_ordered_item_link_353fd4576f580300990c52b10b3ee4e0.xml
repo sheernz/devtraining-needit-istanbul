@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_ordered_item_link">
+    <sc_ordered_item_link action="INSERT_OR_UPDATE">
+        <link_text>Lick here to see details of FCL item1 Order Item Link</link_text>
+        <link_url>http://www.dell.com/en-us/work/shop/productdetails/xps-13-9365-2-in-1-laptop/cax13nw10p7s1422r?s=bsd&amp;oc=cax13nw10p7s1422r&amp;cid=298720&amp;st=&amp;gclid=EAIaIQobChMI0erQrsrA1QIVFJR-Ch0FbwqDEAYYBCABEgLG2_D_BwE&amp;lid=5704669&amp;VEN1=s7tblofPe,101950809789,901q5c14135,c,,C</link_url>
+        <name>FCL item1 Order Item Link Name</name>
+        <sys_class_name>sc_ordered_item_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-05 17:07:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>353fd4576f580300990c52b10b3ee4e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FCL item1 Order Item Link Name</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_ordered_item_link_353fd4576f580300990c52b10b3ee4e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-05 17:07:59</sys_updated_on>
+        <target>internal</target>
+    </sc_ordered_item_link>
+</record_update>

@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="10" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="13" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
+        <element attributes="knowledge_search,live_feed=true,edge_encryption_enabled=true" choice="2" label="For Practice" max_length="40" name="u_forpractice" type="string">
+            <choice>
+                <element label="Suggestion Choice List 1" value="Suggestion Choice List 1"/>
+                <element label="Suggestion Choice List 2" value="Suggestion Choice List 2"/>
+                <element label="Suggestion Choice List 3" value="Suggestion Choice List 3"/>
+            </choice>
+        </element>
+        <element label="For TimeLine" max_length="40" name="u_fortimeline" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
-        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="ref_contributions=x_58872_needit_user_show_needit_rec" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element label="Human Resources" sequence="0" value="hr"/>
                 <element label="Facilities" sequence="1" value="facilities"/>
                 <element label="Legal" sequence="2" value="legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Workflow practice" max_length="40" name="u_wfpractice" type="string">
+            <choice>
+                <element label="Step 1" sequence="0" value="step1"/>
+                <element label="Step 2" sequence="1" value="step2"/>
+                <element label="Step 3" sequence="2" value="step3"/>
+                <element label="Step 4" sequence="3" value="step4"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" max_length="40" name="u_what_needed" type="string">

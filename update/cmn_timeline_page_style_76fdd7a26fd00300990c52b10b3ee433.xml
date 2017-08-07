@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_timeline_page_style">
+    <cmn_timeline_page_style action="INSERT_OR_UPDATE">
+        <condition table="x_58872_needit_needit">stateIN13,14,15,16,3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="13,14,15,16,3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <label_color display_value="UI14 Chart 02">093f8f11d7003100fa6c0c12ce610353</label_color>
+        <label_decoration>bold</label_decoration>
+        <order>100</order>
+        <span_color display_value="DarkRed">65b3025ea9fe3dba00e3c0e36719234c</span_color>
+        <sys_class_name>cmn_timeline_page_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-03 23:06:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>76fdd7a26fd00300990c52b10b3ee433</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stateIN13,14,15,16,3^EQ</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cmn_timeline_page_style_76fdd7a26fd00300990c52b10b3ee433</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-03 23:06:07</sys_updated_on>
+        <timeline_page display_value="x_58872_needit.Needit TL Page1">fffc9ba26fd00300990c52b10b3ee49e</timeline_page>
+    </cmn_timeline_page_style>
+</record_update>
